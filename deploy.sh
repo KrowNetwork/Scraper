@@ -1,4 +1,5 @@
 #!/bin/bash
 git pull
 
-screen -dm -S scraper scrape.py
+screen -dm -S scraper python scrape.py
+
