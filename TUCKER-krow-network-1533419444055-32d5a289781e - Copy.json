@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "krow-network-1533419444055",
+  "private_key_id": "32d5a289781ec2769bb3fff644f76e966aa3eecc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDF93jG5+us5ZHR\ndDCbXrzr8xCvmBvAYE8HU4n41k2jvKp1TCzEB3gUF+yOVa6ecKGpcGUnv7QHiHIJ\nDbOYfWH7r9NRQOBQERNmQcLmwGMXxkqQR7JnqE13V/d3Ns7AuODEtnHCWnnO107f\n5APCoMcO9Ym65YIVg3ojHTyEKrkTfvW2t+7ADNjfd7LQgSxGLIqDIGeaqZFLCren\n1yLcwsoK7PyRMGdfEXoJlDEglDLmaVY4K4D7EIv4BerlvwpSsURbujmdOfasfOyf\nyci6/1NujShKNNahR7E4bEkjjugcCGs2zCaWjbn9dFd1SltznhYqNfZ8eGlXXRtU\nKpM0+H9pAgMBAAECggEAAfhhzRb7Tzv0rNE7d5xkhHOll53Lruk2eCPydFXLrYS/\n7I1ux5+saATJ76u2InEMBtftxczAYa/PtLvcbPjYfA0GrSEYamuVFhgy9KF3CwJH\n9TIleicgaD7poVfcDGp6oDKRpMXKPw8BA7Ts/aeke4dhkMjed9DYaxeMJeOX9nPx\nSU9W4NmiiWWINqR6gkuG2BiNMJ0M7u2NS8DKp3+c4Gx1hrXJUYDp5C9s8RDbdruR\n3VoJgfxxWKCKt/7I3xQRkBN+LQvwNilBCg8gJoOVXf3yoFBmQxbrzZ61Hr9Rrp84\nUSH9iS+DfqSXjTznrwQPZYTMVxq0Hz5ZHBj2N5BZJQKBgQDrYf26Fe/yVrIFBxcP\nNiicfeqXt0UOuunElt5KKLc5/dYF4s0bGy881f2q2IWKbEKAfXkVJUwDVDWt3O2W\n9ZpLr4WK9mW10fYz9m9fAVKXxXfCs+NgkGwzydK96H9YK9A7n0RC4S5HxNDRdhT+\ntGv9y2jv5E1PKqzw7i5h78YYLQKBgQDXTn8P/ZwDRYgc/QykXQbqu/RAqeWeu4Ee\ngz/sT9sjtdNgliCQWJgywwQTrbE8BGRqzqd8mtDdY8ilOa55NOIgWvBjeYzRP/9u\nQqcpAhhSP3qcuh9jn42GcXDs4TR72LVp1gMQeyrINnIwmXkY4Khdz0UuqpkbLTDD\nSyt2PWttrQKBgHvUy5UQYXGOpoz6k+kOxwK9Q6OZaR08vCsOa9d74BkEL4pdLSZr\ngMhyk8dDrc2K8tmCKSc0ve6qaKsVJXFbuFbE+m6G/i9PTEU+Co1itr7dxgmKdb6h\nfCsqrFH4dLZAJoaXXWQJ7z0Wj/0CMD1nUcDtOEGsS/ewLdd6lrAzYnXpAoGBALj7\nzTl86LT64XYeh+UTtCSrdbC1B/64FLiVha9P8PSefMzIT5QVOjaqzO7nVZY+I9SM\nVuQ802TTHYmvpFKo9/tahpzAyxbhSGGATMRz81d/CKZtVxit9ddj0eUDnKcnSr5y\nzFE1sU0xUiylP6D7LEzlDwiINGFgEzxHckD1hj5FAoGAeZMeWeKIi7uFcASGFL7d\nh3uCDocJyapcV4ifYQhqGdNmlTCHpbSI0CVCIYpNXPArvJu4BoPYvjfr0U5rTNpa\nj9ygWyei3lP7KW7rfg85Nc0hIabJUVp69B8hV3EzI7emFma42oX2wUyaUQo6dW5E\nNpzbgBIRl3U9vA39JfkSBFQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sa-tucker@krow-network-1533419444055.iam.gserviceaccount.com",
+  "client_id": "102683241006256121091",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sa-tucker%40krow-network-1533419444055.iam.gserviceaccount.com"
+}

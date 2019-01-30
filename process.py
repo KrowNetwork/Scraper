@@ -42,8 +42,6 @@ def create_company(client_service, company_to_be_created):
         print('Company created: %s' % company_created)
         return company_created
     except Error as e:
-        # print (e)
-        # print('Got exception while creating company')
         return str(e)
 
 def get_all_jobs(client_service, company_name):
@@ -119,8 +117,8 @@ def batch_create(jobs):
     # client_service = build('jobs', 'v3')
     created = 0
     errors = ""
+    # print (jobs)
     for i in jobs:
-        # print (i["requisition_id"])
         try:
             create_job(client_service, i)
             created += 1
@@ -205,7 +203,6 @@ def generate_job(**kwargs):
 def get_company_name(i):
     # print (i)
     comp = i["hiring_company"]["name"]
-    # print (comp)
 
     try: 
         name = create_company(client_service, {'display_name': comp, 'external_id': "_".join(comp.split())})
@@ -215,9 +212,10 @@ def get_company_name(i):
             name = name.split('"')[1].split(" ")[1]
         else:
             name = name["name"]
-        
+        # print (name)
         return name
-    except:
+    except Exception as e:
+        # raise e
         return None
         # x = get_all_companies(client_service)
         # for a in x["companies"]:

@@ -59,19 +59,28 @@ for t in titles:
             url = "https://api.ziprecruiter.com/jobs/v1?search=" + t + "&location=" + l + "&radius_miles=" + area + "&days_ago=7&jobs_per_page=1000&page=1&api_key=faaqxf98564y5xg422fra9ctyftgk3iw"
             # print (url)
             r = requests.get(url)
+            # print (r.json())
+            # exit()
 
             jobs = r.json()["jobs"]
         except:
+            # print ("err")
+            # exit()
             break
         # exit()
         y = 1
-        
-        for i in jobs[:10]:
-            # # print (i["source"])
+        # print (jobs)
+
+        yes = 0
+        for i in jobs[:20]:
+            # print (i["source"])
             if i["source"].lower() in good_sources:
+                # print (i)
+                yes += 1
                 g = process.process(i)
                 if g != None:
                     j.append(g)
+
             #     print (i["source"])
             #     print (i["url"])
             # if i["source"].lower() == "efinancialcareers":
@@ -83,6 +92,7 @@ for t in titles:
             #     print (i["url"])
                 #     # break
         # exit()
+        # print (len(j))
         if len(j) > 50:
             x += len(j)
             # j = [j[0]]
