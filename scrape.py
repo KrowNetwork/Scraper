@@ -72,7 +72,7 @@ for t in titles:
         # print (jobs)
 
         yes = 0
-        for i in jobs[:20]:
+        for i in jobs[:10]:
             # print (i["source"])
             if i["source"].lower() in good_sources:
                 # print (i)
